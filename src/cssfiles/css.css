@@ -1,0 +1,40 @@
+
+
+.Myinput{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+ .Divrigth{
+    width: 300px;
+    height: 200x;
+    position: fixed;
+    top: 10%;
+    right: 150px;
+    transform:translateY(-50%);
+   
+    
+ }
+ .Divleft{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform:translateY(-50%)
+
+ }
+ .row {
+   display: flex;
+   justify-content: space-between;  
+   padding: 10px;
+ }
+ 
+ .column {
+   flex: 2;
+   padding: 10px;
+   margin: 5px;
+   background-color: #f0f0f0;
+   text-align: center;
+ }
